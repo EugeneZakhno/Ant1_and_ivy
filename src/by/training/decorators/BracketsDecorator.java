@@ -14,6 +14,10 @@ public class BracketsDecorator implements Printer {
     @Override
     public void print() {
         System.out.print(LEFT_BRACKET);
+
+
+
+
         printer.print();
         System.out.print(RIGHT_BRACKET);
     }
